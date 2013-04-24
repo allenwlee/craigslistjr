@@ -1,0 +1,12 @@
+
+Posts
+----
+belongs_to :categories
+
+
+
+
+
+Categories
+----------
+has_many :posts
