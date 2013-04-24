@@ -33,6 +33,6 @@ get '/:id/edit' do
 end
 
 post '/:id/edit' do
+  Post.update_attributes(params[:post])
   
-  @post.update_attributes(params[:post])
 end

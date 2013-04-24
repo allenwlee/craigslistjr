@@ -3,7 +3,7 @@
 <div class="container">
   <h2><%= @post.title %></h2>
   <h3>Edit your post</h3>
-  <form method="post" action="/edit">
+  <form method="post" action="/:id/edit">
     <input type="text" name="post[title]" value="<%= @post.title%>"><br>
     <input type="text" name="post[description]" value="<%= @post.description%>"><br>
     <input type="text" name="post[email]" value="<%= @post.email%>"><br>
